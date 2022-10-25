@@ -23,6 +23,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { SideNavComponent } from './shared/side-nav/side-nav.component';
 import { RouterModule } from '@angular/router';
 import { OnceavoSemComponent } from './pages/onceavo-sem/onceavo-sem.component';
+import { CtrlPagosComponent } from './shared/ctrl-pagos/ctrl-pagos.component';
+import { RgstrAlumnComponent } from './shared/rgstr-alumn/rgstr-alumn.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,6 +42,8 @@ import { OnceavoSemComponent } from './pages/onceavo-sem/onceavo-sem.component';
     SwitchComponent,
     SideNavComponent,
     OnceavoSemComponent,
+    CtrlPagosComponent,
+    RgstrAlumnComponent,
   ],
   imports: [
     BrowserModule,

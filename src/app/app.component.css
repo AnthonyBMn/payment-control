@@ -44,10 +44,10 @@ app-header {
   }
   
   div.box{
-    height: 560px;
+    height: 670px;
     position: fixed;
     padding-right: inherit;
-    margin-top: 25px;
+    margin-top: 5px;
     overflow-y: scroll;
     overflow-x: hidden;
   }
